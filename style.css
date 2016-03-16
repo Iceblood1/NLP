@@ -159,29 +159,29 @@ div.cara {
     /* ----- Menu ----- */
     
     #menu {
-	position: absolute;
-	right: 00px;
-	font-size: 95%;
-	background: url('img/menu_cut.jpg') no-repeat scroll right;
-	margin-right: 0px;
+    	position: absolute;
+    	right: 00px;
+    	font-size: 95%;
+    	background: url('img/menu_cut.jpg') no-repeat scroll right;
+    	margin-right: 0px;
     }
     
     
     #menu ul li {
-	float: left;
-	display: inline;
+    	float: left;
+    	display: inline;
     }
     
     #menu ul li a {
-	text-decoration: none;
-	color: #101115;
-	text-transform: uppercase;
-	font-weight: 300;
-	letter-spacing: 1px;
-	display: block;
-	padding: 29px 40px 0 40px;
-	height: 46px;
-	background-color: #fff;
+    	text-decoration: none;
+    	color: #101115;
+    	text-transform: uppercase;
+    	font-weight: 300;
+    	letter-spacing: 1px;
+    	display: block;
+    	padding: 29px 40px 0 40px;
+    	height: 46px;
+    	background-color: #fff;
     }
     
     #menu ul li a:hover {
@@ -426,47 +426,47 @@ div.cara {
             -o-transition: all 0.3s ease-in-out;
             -ms-transition: all 0.3s ease-in-out;
             transition: all 0.3s ease-in-out;
-                 }
+         }
 
         .pub-left a.profession {
-        display: block;
-        width: 300px;
-        height: 300px;
-        background-color: #fff;
-        text-decoration: none;
-        font-size: 95%;
-        padding-top: 10px;
+            display: block;
+            width: 300px;
+            height: 300px;
+            background-color: #fff;
+            text-decoration: none;
+            font-size: 95%;
+            padding-top: 10px;
         }
 
          .pub-left a.profession:hover {
-    opacity: 1;
-    }
-    
-    .pub-left a:hover {
-    opacity: 0.2;
-    }
+            opacity: 1;
+        }
+                
+        .pub-left a:hover {
+            opacity: 0.2;
+        }
 
         .pub-left h4 {
-        position: absolute;
-        top: 125px;
-        display: block;
-        width: 300px;
-        text-align: center;
-        text-shadow: 0px 1px #d72d05;
-        font-weight: 200;
-        font-size: 180%;
-        line-height: 140%;
+            position: absolute;
+            top: 125px;
+            display: block;
+            width: 300px;
+            text-align: center;
+            text-shadow: 0px 1px #d72d05;
+            font-weight: 200;
+            font-size: 180%;
+            line-height: 140%;
         }
 
         .pub-left img {
-        width: 300px;
+            width: 300px;
             height: 300px;
-        position: absolute;
+            position: absolute;
         }
 
-      .pub-left span {
-        font-weight: 400;
-        text-shadow: 0px 1px #b70d02;
+        .pub-left span {
+            font-weight: 400;
+            text-shadow: 0px 1px #b70d02;
         }
 
 	    .pub-right{
@@ -475,16 +475,9 @@ div.cara {
 	    }
 
         .pub-right h4 {
-        /*position: absolute;*/
-     /*   top: 125px;
-        display: block;
-        width: 300px;
-        text-align: center;
-        text-shadow: 0px 1px #d72d05;
-        font-weight: 200;*/
-        font-size: 140%;
-        text-align: center;
-        line-height: 120%;
+            font-size: 140%;
+            text-align: center;
+            line-height: 120%;
         }
 	    .orange{
 	    	color: #e66e0d;
