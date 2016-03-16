@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>清华大学-CSLT-自然语言处理研究组</title>
+    
+    <script src="http//cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
+    
+    <link rel="stylesheet" href="reset.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+        
+    <link href='http//fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+    
+    <!-- *********  Header  ********** -->
+    
+    <div id="header">
+        <div id="header_in">
+        
+        <h1><a href="index.html"><b>清华大学  CSLT </b>自然语言处理研究组</a></h1>
+        
+        <div id="menu">
+         <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="about.html">团队</a></li>
+            <li><a href="ourwork.html">DEMO</a></li>
+            <li><a href="blog.html">成果</a></li>
+            <li><a href="contact.html" class="active">招聘</a></li>            
+         </ul>
+        </div>
+        
+        </div>
+    </div>
+    
+    <!-- *********  Main part – headline ********** -->
+    
+        
+        <div id="main_part_inner">
+            <div id="main_part_inner_in">
+        
+            <h2>招聘</h2>
+            <h3>招聘实习生、工程师&博士后</h3>
+            <h3>招聘实习生</h3>
+            <p>   清华大学信研院语音语言中心长期从事语音和语言研究，具有丰厚的科研积累和项目经验。实验室老师和学长学姐都超级nice又负责~可以学到很多东西。以后想出国来做项目，发paper什么的都是一个很好的平台~做的不错的老师会亲笔写推荐信。期待新成员的加入！！！</p>
+            <h3>招聘工程师</h3>
+            <p> 工作内容包括：</p>
+            <p> 1. 语音识别系统的数据处理、结果分析、实验验证。</p>
+            <p>2. 算法设计和实现，与团队合作提高语音识别系统的综合性能。</p>
+            <p>3. 利用自然语言处理的理论和方法解决实际问题。</p>
+            <p>4. 研究和提出新思路，新方法，撰写和发表学术论文。</p>
+            <p>要求如下：            </p>
+            <p>1. 本科在读及以上学历，熟悉经典数据结构和算法。</p>
+            <p>2. 有丰富的C或C++语言编程经验。</p>
+            <p>3. 有使用Perl, Python等脚本语言的实际经验。</p>
+            <p>4.  熟悉linux操作系统。</p>
+            <p>5. 在下列一项或多项研究领域内具有背景者优先：语音信号处理、语音识别或合成、机器学习、自然语言处理。</p>
+            <p>6. 对科学研究具有浓厚兴趣者优先，特别欢迎有志于在语音处理、机器学习和自然语言处理方面有所建树的应聘者。  </p>
+            <h3>招聘博士后</h3>
+            <p> 现招聘1-2名博士后研究人员，工作内容包括：</p>
+            <p>1. 从事语音识别、说话人识别或自然语言处理方面的基础研究和应用研究</p>
+            <p>2. 研究和提出新思路，新方法，撰写和发表学术论文，提交项目申请</p>
+            <p>3. 配合指导学生和工程师从事科研活动</p>
+            <p>具体要求如下：</p>
+            <p>1.对机器学习、语音信号处理、自然语言处理等具有浓厚兴趣，乐于从事科学研究</p>
+            <p>2. 有丰富的理论基础和程序经验</p>
+            <p>3. 有较强的科研积累</p>
+            <p>4. 待遇面议</p>
+            
+        </div>
+
+        
+        <!-- *********  Content  ********** -->
+        
+        <div id="content_inner">
+            
+            <!-- *** contact form *** -->
+            
+           <h3>联系我们</h3>
+           
+           <form action="#" method="post" class="formit">
+                <input type="text" name="name" placeholder="姓名"/>
+                <input type="text" name="email" placeholder="EMAIL"/>
+                <input type="text" name="url" placeholder="个人博客（选填）"/>
+                <textarea name="message" placeholder="留下您的信息 或 将简历发至 hipanyiqiao@qq.com"></textarea>
+                <p>上传附件</p>
+                <input id="fileToUpload " type="file" size="20" name="fileToUpload " class="input"> 
+                <button class="button" id="buttonUpload" onclick="return ajaxFileUpload ();">上传</button> 
+            <input type="button" class="button_submit" onclick="javascript:window.location.href('mailto:cslt@mail.tsinghua.edu.cn')" value="提交">
+            </form>
+
+            <div class="cara"></div>
+            
+            <h3>联系方式</h3>
+            
+            <div class="contactinfo">
+                <span class="ico_mapmark"><b>北京市海淀区清华大学FIT楼1-303房间</b></span>    
+            </div>
+            
+            <div class="contactinfo">
+                <span class="ico_message"><a href="mailto:cslt@mail.tsinghua.edu.cn">cslt@mail.tsinghua.edu.cn</a></span>    
+            </div>
+            
+            <div class="contactinfo">
+                <span class="ico_iphone"><b>电话/传真:010-62796589</b></span>    
+            </div>
+            
+            <hr class="cleanit">
+            
+            
+<!--             <div class="mapit">
+                <iframe width="938" height="360" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https//maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=San+Francisco,+CA,+United+States&amp;aq=0&amp;oq=san+f&amp;sll=37.0625,-95.677068&amp;sspn=45.553578,93.076172&amp;ie=UTF8&amp;hq=&amp;ll=37.77493,-122.419416&amp;z=14&amp;output=embed"> 
+                </iframe>
+            </div> -->
+
+            
+            
+            
+            
+            
+        </div>
+        
+    
+    
+    <!-- *********  Footer  ********** -->
+    
+ 
+    <hr class="cleanit">
+       <div id="footer">
+        <div id="footer_in">
+            <p><a href="http://cslt.riit.tsinghua.edu.cn/">@版权所有:清华大学信息技术研究院语音和语言技术中心</a> &mdash; 地址:北京市海淀区清华大学FIT楼1-303房间</p>
+            <p>电话/传真:010-62796589  &nbsp&nbsp&nbsp&nbsp邮编:100084  &nbsp&nbsp&nbsp&nbspE-mail:cslt@mail.tsinghua.edu.cn</p>
+        </div>
+    </div>
+         
+<script>
+// script for testimonial' tabs
+$(function() {
+    $("ul.controls").tabs("div.testimonials > div");
+});
+</script>
+<!-- 上传附件 -->
+<script type="text/javascript"> 
+    function ajaxFileUpload (){ 
+    loading();//动态加载小图标 
+    $.ajaxFileUpload ({ 
+    url :'upload.php', 
+    secureuri :false, 
+    fileElementId :'fileToUpload', 
+    dataType : 'json', 
+    success : function (data, status){ 
+    if(typeof(data.error) != 'undefined'){ 
+    if(data.error != ''){ 
+    alert(data.error); 
+    }else{ 
+    alert(data.msg); 
+    } 
+    } 
+    }, 
+    error: function (data, status, e){ 
+    alert(e); 
+    } 
+    }) 
+    return false; 
+    } 
+    function loading (){ 
+    $("#loading ").ajaxStart(function(){ 
+    $(this).show(); 
+    }).ajaxComplete(function(){ 
+    $(this).hide(); 
+    }); 
+    } 
+</script>
+</body>
+</html>
